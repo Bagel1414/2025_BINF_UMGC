@@ -1,0 +1,41 @@
+>seq1 | FRAME = 1 | POS = 0 | LEN = 9 | +
+ATG AAA TGA
+>seq1 | FRAME = 1 | POS = 9 | LEN = 9 | +
+ATG CCC TAG
+>seq1 | FRAME = 2 | POS = 19 | LEN = 9 | +
+ATG CGT TAG
+>seq2 | FRAME = 1 | POS = 0 | LEN = 9 | +
+ATG AAA TAA
+>seq2 | FRAME = 1 | POS = 12 | LEN = 6 | +
+ATG TAG
+>seq3 | FRAME = 1 | POS = 28 | LEN = 9 | -
+ATG CGT TAA
+>seq3 | FRAME = 1 | POS = 22 | LEN = 6 | -
+ATG TAG
+>seq3 | FRAME = 1 | POS = 10 | LEN = 9 | -
+ATG GTA TGA
+>seq3 | FRAME = 3 | POS = 5 | LEN = 9 | -
+ATG AAG TAG
+>seq4 | FRAME = 1 | POS = 0 | LEN = 18 | +
+ATG GCC ATT ATG ACA TAA
+>seq4 | FRAME = 1 | POS = 9 | LEN = 9 | +
+ATG ACA TAA
+>seq4 | FRAME = 2 | POS = 25 | LEN = 6 | +
+ATG TAG
+>seq4 | FRAME = 3 | POS = 7 | LEN = 9 | -
+ATG TCA TAA
+
+# ====== ORF Summary ======
+
+> seq1
+3 ORFs in forward, 0 ORFs in reverse
+
+> seq2
+2 ORFs in forward, 0 ORFs in reverse
+
+> seq3
+0 ORFs in forward, 4 ORFs in reverse
+
+> seq4
+3 ORFs in forward, 1 ORFs in reverse
+
